@@ -10,6 +10,7 @@ func main() {
         PopulationSize: 30,
         CrossoverRate: 0.6,
         MutationRate: 0.3,
+        MigrationRate: 0.05,
         NewGene: newGene,
         Fitness: fitness,
         OnGeneration: onGeneration,
