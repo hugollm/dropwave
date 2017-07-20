@@ -31,7 +31,7 @@ func onGeneration(search *exodus.Search) {
     if search.Generation % 1000 == 0 {
         fmt.Println(search.Best.Fitness, "|", search.Generation)
     }
-    if search.Best.Fitness >= (1 - 0.0000001) {
+    if search.Best.Fitness >= (1 - 0.000000001) {
         fmt.Println()
         fmt.Println("Generation: ", search.Generation)
         fmt.Println("Genome:     ", search.Best.Genome)
